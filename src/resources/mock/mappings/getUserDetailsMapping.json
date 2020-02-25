@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",      //定义接口的请求方式
+    "urlPath": "/api/getUserDetails"     //定义接口的路径
+  },
+  "response": {
+    "status": 200,     //接口返回码
+    "bodyFileName": "firstCourse/userDetails.json",    //接口response的内容是userDetails.json文件中的内容
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"   //接口response中Content-Type
+    }
+  }
+}

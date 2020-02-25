@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method" : "GET",
+    "urlPattern": "/api/getBook/([a-z]*)"     //[a-z]*是正则表达式，表示可以输入多个a-z的任意字符
+  },
+  "response": {
+    "status": 200,
+    "body": "get book with url pattern successfully"
+  }
+}
